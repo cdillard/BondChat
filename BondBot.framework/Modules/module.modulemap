@@ -1,0 +1,11 @@
+framework module BondBot {
+  umbrella header "BondBot.h"
+
+  export *
+  module * { export * }
+}
+
+module BondBot.Swift {
+    header "BondBot-Swift.h"
+    requires objc
+}
