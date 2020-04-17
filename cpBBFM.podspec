@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "cpBBFM"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary      = "cpBBFM is a product from cpBBFM.AI. user friendly"
   spec.description  = "cpBBFM is a bot from cpBBFM.AI. It is very user friendly also."
   spec.homepage     = "http://bond.ai"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Mahesh Balshetwar" => "mahesh@bond.ai" }
   spec.platform     = :ios, "11.0"
   spec.swift_versions = "5.0"
-  spec.source       = { :git => "https://BondPranjal@bitbucket.org/bond-ai/cpbondbotsdk3.git", :tag => "1.1.0" }
+  spec.source       = { :git => "https://BondPranjal@bitbucket.org/bond-ai/cpbondbotsdk3.git", :tag => "1.1.1" }
   #spec.source_files  = 'BondBot.framework/**/*'
   spec.resources = "BondBot.framework/**/*.{png,ttf}"
   
@@ -24,5 +24,6 @@ Pod::Spec.new do |spec|
   spec.dependency "SwiftSignalRClient", "~> 0.6.3"
   
 end
+
 
 
