@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "BondBot"
-  spec.version      = "3.0.3"
+  spec.version      = "1.0.1"
   spec.summary      = "BondBot is a product from Bond.AI. user friendly"
   spec.description  = "BondBot is a bot from Bond.AI. It is very user friendly also."
   spec.homepage     = "http://bond.ai"
@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Mahesh Balshetwar" => "mahesh@bond.ai" }
   spec.platform     = :ios, "11.0"
   spec.swift_versions = "5.0"
-  spec.source       = { :git => "https://BondPranjal@bitbucket.org/bond-ai/cpbondbotsdk3.git", :tag => "3.0.3" }
+  spec.source       = { :git => "https://BondPranjal@bitbucket.org/bond-ai/cpbondbotsdk3.git", :tag => "1.0.1" }
   #spec.source_files  = 'BondBot.framework/**/*'
   spec.resources = "BondBot.framework/**/*.{png,ttf}"
   
